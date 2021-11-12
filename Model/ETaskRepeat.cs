@@ -1,5 +1,5 @@
 
-namespace tasks.Entity
+namespace tasks.Model
 {
     public enum ETaskRepeat
     {

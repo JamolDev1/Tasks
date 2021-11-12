@@ -1,8 +1,8 @@
-namespace tasks.Entity
+namespace tasks.Model
 {
     public enum ETaskStatus
     {
-        None,
+         None,
         InProgress,
         Postponed,
         Completed
