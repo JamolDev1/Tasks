@@ -1,6 +1,7 @@
+
 namespace Tasks
 {
-    public enum ETasksRepeat
+    public enum ETaskRepeat
     {
         never,
         hourly,
