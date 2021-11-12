@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
+using tasks.Entity;
 
-namespace Tasks.data
+namespace tasks.Data
 {
-    public class TasksDbContext : DbContext
+    public class TaskDbContext : DbContext
     {
-         public DbSet<Tasks> Tasks { get; set; }
+        public DbSet<Task> Tasks { get; set; }
         
         
-        public TasksDbContext(DbContextOptions options)
+        public TaskDbContext(DbContextOptions options)
             : base(options)  { }
     }
 }

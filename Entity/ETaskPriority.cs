@@ -1,6 +1,6 @@
 namespace Tasks
 {
-    public enum ETasksPriority
+    public enum ETaskPriority
     {
         None,
         High,

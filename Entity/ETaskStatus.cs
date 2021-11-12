@@ -1,6 +1,6 @@
 namespace Tasks
 {
-    public enum ETasksStatus
+    public enum ETaskStatus
     {
          None,
         InProgress,
